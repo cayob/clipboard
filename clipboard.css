@@ -1,0 +1,474 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background: url(./images/bg-header-desktop.png);
+    height: 40vh;
+}
+
+.header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.section1-div {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: hsl(201, 11%, 66%);
+}
+
+.heading.div {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.note {
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 40px;
+}
+
+.clipboard-div {
+    width: 40%;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+#id {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.button {
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    width: 200px;
+    z-index: 1;
+    top: -30px;
+}
+
+.ios-button-container {
+    margin-right: 10px;
+}
+
+.ios {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.mac {
+    background-color: hsl(171, 66%, 44%);
+}
+
+#note {
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+}
+
+.keep {
+    width: 55%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+.tv-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.tv{
+    width: 52%;
+}
+
+.tex-text {
+    width: 46%;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 50px;
+}
+
+.access-div {
+    width: 40%;
+    margin-bottom: 50px
+}
+
+.section2-logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-div {
+    width: 28%;
+    padding: 10px;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+footer {
+    background-color: hsl(201, 11%, 66%);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+.divlogo {
+    padding-top: 30px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    padding-left: 60px;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+.body {
+    background-color: hsl(201, 11%, 66%);
+    width: 100%;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: hsl(201, 11%, 66%);
+    padding: 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.tv-resizing {
+    width: 100%;
+    height: 100%;
+    /* Reduces deterioration because the height isn't forced */
+    margin: 0 0 0 -80px;
+}
+
+
+
+.cloud {
+    padding-bottom: 60px;
+}
+
+.cloud-div {
+    padding-bottom: 10px;
+}
+
+.tv-text {
+    width: 48%;
+    padding-top: 80px;
+    text-align: left;
+    padding-left: 0px 70px 0px 200px;
+}
+
+.FAQ {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+.FAQ-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid blue;
+    justify-items: center;
+    padding: 90px;
+}
+
+.div.card {
+    width: 250%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.div.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+div.container {
+    padding: 10px;
+}
+
+@media(min-width:0px) and (max-width:600px) {
+    
+    .section1-div {
+        width: 100%;
+        display: block;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .heading.div {
+        width: 100%;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .note {
+        font-weight: 600;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 30px;
+    }
+   
+    .clipboard-div {
+        width: 100%;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .button-div {
+        display: block;
+    }
+
+    .keep {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        margin-top: 25px;
+    }
+
+    .tv-container {
+        width: 100%;
+        display: block;
+    }
+
+    .tv{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .tv-resizing {
+        width: 100%;
+        height: 90%;
+        margin: 0 0 0 0px;
+    }
+
+    .tv-text {
+        width: 100%;
+        padding-top: 80px;
+        text-align: center;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .cloud {
+        padding-bottom: 60px;
+    }
+
+    .section2 {
+        display: block;
+        margin-top: 120px;
+        padding: 0px 45px 0px 45px;
+    }
+
+    .access-div {
+        width: 100%;
+        margin-bottom: 50px
+    }
+
+    .pad-phone {
+        display: block;
+        width:100%;
+        padding-bottom: 70px;
+    }
+
+    .image-size{
+        width:100%;
+    }
+
+    .section2-logo {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .image {
+        display: block;
+        height: 100%;
+    }
+
+    .tex-text {
+        width: 100%;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .button {
+        border-radius: 30px;
+        height: 55px;
+        width: 200px;
+    }
+
+    .ios-button-container {
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+
+    .section-div {
+        width: 100%;
+        padding: 10px;  
+    } 
+
+    .div-image{
+        padding-top: 30px;
+    }
+
+    footer {
+        background-color: hsl(201, 11%, 66%);
+        width: 100%;
+        align-items: center;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        color: hsl(210, 10%, 33%);
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 18px;
+    }
+
+    .divlogo {
+        padding-right: 0px;
+        cursor: pointer;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .container {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    .icon {
+        padding-left: 20px;
+    }
+}
+
+
+/* Tablet screen only */
+
+@media(min-width:601px) and (max-width:992px){
+
+    .pad-phone {
+        display: block;
+        width:100%;
+        padding-bottom: 70px;
+    }
+
+    .image-size{
+        width:100%;
+    }
+
+    .image {
+        display: flex;
+        width: 100%;
+        height: 0vh;
+        justify-content: space-evenly;
+        padding-top: 70px;
+        margin-bottom: 70px;
+        padding:0px 5px 70px 5px;
+    }
+
+    .image-resize{
+        width:110px;
+        height:100px;
+        object-fit:contain;
+       
+    }
+}
+    
